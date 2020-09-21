@@ -20,17 +20,47 @@
             <button class="button1">Se connecter</button>
             <button class="button2">S'inscrire</button>
         </div>
-        
-    <title>Actutu</title>
 </head>
 <body>
     <img class= "logo1"src="logo.svg" alt="ronds violet">
-    <h1>Actutu</h1>
+    <h1 id="h1">Actutu</h1>
     <p id="p1">Toute l'actualité du livre</p>
             <form action="index.html" class="formulaire">
                 <input type="text" placeholder="Rechercher un livre" id="name"
                     name="name" required minlength="4" maxlength="8" size="11" id="recherche">
                 <button type="submit" id="btn-search">GO</button>
             </form>
+
+            <section id="section1">
+                <img class="book"src="book.svg" alt="Livre1">
+                        <h1 id="h2">Recommandations</h1>
+                        <div class="container">
+                            <div class="conteneur-flex">
+
+                                
+                                <div class="shadowbox">
+                                    <img class="booki"src="pagelivre.png"alt="orange"><br>
+                                        <h2 class="text">Learning ECMAScript 6</h2>
+                                        <h3 class="text2">Narayan Prusty</h3>
+                                        <p class="euros">27.42€</p>
+                                </div>
+                                <div class="shadowbox">
+                                    <img class="book2"
+                                        src="pagelivre2.png"alt="vert"><br>
+                                        <h2 class="text">Learn ECMAScript</h2>
+                                        <h3 class="text2">Narayan Prusty</h3>
+                                        <p class="euros">18.99€</p>
+                                </div>
+                                <div class="shadowbox">
+                                    <img class="book3"
+                                        src="pagelivre3.png"alt="rouge"><br>
+                                        <h2 class="text">ECMAScript Cookbook</h2>
+                                        <h3 class="text2">Ross Harrison</h3>
+                                       <p class="text">19.99€</p>
+                                </div>
+                            </div>
+
+                        </div>
+</section>
 </body>
 </html>
