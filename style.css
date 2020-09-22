@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
     background: #fafafa;
-    ;
  }
 
  .rectangle{
@@ -24,7 +23,6 @@
     cursor: pointer;
 }
 
-
 .button2{
     position: relative;
     background-color: #4A3174;
@@ -37,7 +35,6 @@
     color: #F2F2F2;
     cursor: pointer;
 }
-
 
 nav ul{
     list-style-type: none;
@@ -80,7 +77,6 @@ nav a:hover{
     height: 73px;
     left: 150px;
     top: 149px;
-    border-radius: 0px;
 }
 #p1{
     position: absolute;
@@ -132,7 +128,7 @@ input{
     padding: 30px;
     background-image: linear-gradient(180deg,#FFFFFF, #FFFFFF 40%);
     margin: 40px;
-    border-radius: 6px;
+    border-radius: 3px;
     float: left;
     box-shadow: 0px 4px 20px rgba(158, 158, 158, 0.07);
   }
@@ -180,10 +176,10 @@ input{
     
 }
 .shadowbox1{
-    padding: 10px;
+    padding: 15px;
     background-color: #FFFFFF;
     margin: 20px;
-    border-radius: 6px;
+    border-radius: 3px;
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -205,8 +201,6 @@ input{
     display: flex;
     flex-flow: row wrap;
     margin: 0px;
-    
-    
   }
 .text3{
     position: relative;
@@ -215,8 +209,7 @@ input{
     top: 70px;
     right:290px;
     background-color: #FFFFFF;
-    color:#CBCBCB;
-    
+    color:#CBCBCB;  
 }
 .most{
     padding-top: 5px;
@@ -253,4 +246,59 @@ input{
     height: 117px;
     display: flex;
     margin: 0 auto;
+}
+#Accueil{
+    color: #4A3174;
+}
+#prix{
+   color: #eab808;
+}
+.footer{
+    background-color: #4A3174;
+    height: 500px;
+}
+
+.logo2{
+    position: relative;
+    background: #4A3174;
+    left:100px;
+    top: 50px;
+    height: 51px;
+}
+
+#Ressources{
+    position: relative;
+    background-color: #4A3174;
+    color:#F2F2F2;
+    left: 140px;
+    height: 40px;
+    top: -95px;
+
+}
+.shadowbox2{
+    padding: 15px;
+    margin: 20px;
+    position: relative;
+    right:200px;
+    background-color: #4A3174;
+  }
+
+ .container3{
+   align-items: stretch;
+   margin-top: 100px;
+   margin-right: 60px;
+   margin-left: 70px;
+ }
+
+.conteneur-flex3{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px;
+    background: #4A3174;
+
+  }
+  .papier,.papier1,.papier2,.papier3,.papier4,.papier5{
+    margin: 20px;
+    background: #4A3174;
+    color:#F2F2F2;  
 }
