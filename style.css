@@ -123,7 +123,7 @@ input{
       
   }
 .book{
-     position: absolute;
+    position: absolute;
     top: 470px;
     left: 80px;
 }
@@ -167,23 +167,34 @@ input{
     margin: 0 auto;
 }
 
+.moins{
+    position: absolute;
+    left: 150px;
+    color: #4A3174;
+    font-size: 38px;
+      
+  }
+.bleu{
+    position: absolute;
+    left: 80px;
+    
+}
 .shadowbox1{
     padding: 10px;
-    background-image: linear-gradient(180deg,#FFFFFF, #FFFFFF 40%);
-    margin: 30px;
+    background-color: #FFFFFF;
+    margin: 20px;
     border-radius: 6px;
     display: flex;
+    position: relative;
+    justify-content: space-between;
     box-shadow: 0px 4px 20px rgba(158, 158, 158, 0.07);
-    
   }
 
 .conteneur2{
     width: 90%;
     margin: 10px;
     border: 2px dashed #FFFFFF;
-    
- } 
-
+} 
  .container2{
    margin-top: 100px;
    margin-right: 60px;
@@ -194,13 +205,49 @@ input{
     display: flex;
     flex-flow: row wrap;
     margin: 0px;
-
+    
+    
   }
-.text3,#money,.script,.most{
+.text3{
+    position: relative;
+    font-size: 14px;
+    height: 50px;
+    top: 70px;
+    right:290px;
     background-color: #FFFFFF;
-
+    color:#CBCBCB;
+    
 }
-
+.most{
+    padding-top: 5px;
+    font-size: 16px;
+    width: 300px;
+    right:180px;
+    position: relative;
+    top: 35px;
+    height: 40px;
+    color: #7A7A7A;
+    background-color: #FFFFFF;
+}
+.script{
+    padding: 9px;
+    font-size: 19px;
+    right:190px;
+    left:9px;
+    width: 490px;
+    position: relative;
+    height: 20px;
+    background-color: #FFFFFF;
+}
+#money{
+    font-size: 14px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    right: 10px;
+    height: 10px;
+    background-color: #FFFFFF;
+}
 .manuel{
     width: 81px;
     height: 117px;
