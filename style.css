@@ -185,8 +185,15 @@ input{
     justify-content: space-between;
     box-shadow: 0px 4px 20px rgba(158, 158, 158, 0.07);
   }
-.shadowbox1 :hover{
-    box-shadow: 1px 4px 20px 0px #9E9E9E 79%;
+.shadowbox1 .text3:hover{
+    color: rgb(0, 0, 0);
+}
+.shadowbox1 #money:hover{
+    color:#EAB808 ;
+}
+.shadowbox1:hover{
+    box-shadow: 0px 3px 20px rgb(0, 0, 0); 
+    color: #222222;
 }
 .conteneur2{
     width: 90%;
@@ -235,7 +242,7 @@ input{
     background-color: #FFFFFF;
 }
 #money{
-    font-size: 14px;
+    font-size: 20px;
     width: 100px;
     position: relative;
     top: 20px;
