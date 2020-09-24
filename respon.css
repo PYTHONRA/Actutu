@@ -1,0 +1,78 @@
+@media screen and (max-width: 1000px){
+    .booki ,.book2,.book3 { 
+       width: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .button2 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .button1{
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width: 1000px){
+     .menu li{
+        margin: 0 10px 10px;
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width: 1000px){
+    input{
+        width: 39%;
+        right: 313px;
+        top: 250px;
+    }
+}
+@media screen and (max-width: 1000px){
+    #btn-search{
+        right: 260px;
+        top: 249px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .shadowbox{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .shadowbox1 {
+        width: 100%;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .text3{
+        position: relative;
+        left: -15px;
+        top: 5px;
+      
+    }
+}
+@media screen and (max-width: 1000px){
+    .script{
+        position: relative;
+        top: 5px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .most{
+        position: relative;
+        top: 80px;
+        left: -100px;
+}
+}
+@media screen and (max-width: 1000px){
+    .shadowbox2{
+        margin: 10px;
+        white-space: nowrap;
+    }
+    #Ressources{
+        white-space: nowrap;
+
+    }
+}

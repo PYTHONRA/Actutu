@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
-    background: #fafafa;
+    background: #d14d4d;
  }
 
  .rectangle{
@@ -91,7 +91,7 @@ nav a:hover{
     border: #4A3174;
     right: 135px;
     top: 179px;
-    padding:10px 19px;
+    padding:11px 19px;
     background-color: #4A3174;
     color: #F2F2F2;
     border-bottom-right-radius: 3px;
@@ -157,8 +157,7 @@ input{
 
 }
 .booki,.book2,.book3{
-    width: 253px;
-    height: 331px;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -190,6 +189,7 @@ input{
 }
 .shadowbox1 #money:hover{
     color:#EAB808 ;
+    font-size: 24px;
 }
 .shadowbox1:hover{
     box-shadow: 0px 3px 20px rgb(0, 0, 0); 
@@ -209,7 +209,7 @@ input{
 .conteneur-flex2{
     display: flex;
     flex-flow: row wrap;
-    margin: 0px;
+    margin: 10px;
   }
 .text3{
     position: relative;
@@ -301,7 +301,6 @@ input{
 
 .conteneur-flex3{
     display: flex;
-    flex-flow: row wrap;
     margin: 0px;
     background: #4A3174;
 
