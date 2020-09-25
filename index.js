@@ -36,17 +36,19 @@
 
 
 function afficheRecommandation() {
-    livresRandom1 = Math.floor(Math.random() * livres.length);
+    let livresRandom1 = Math.floor(Math.random() * livres.length);
     //console.log(livres[0],livres[1],livres[2]);
-    livresRandom2 = Math.floor(Math.random() * livres.length);
-    livresRandom3 = Math.floor(Math.random() * livres.length);
+    let livresRandom2 = Math.floor(Math.random() * livres.length);
+    let livresRandom3 = Math.floor(Math.random() * livres.length);
+
+    console.log(livres[livresRandom1]);
+    console.log(livres[livresRandom2]);
+    console.log(livres[livresRandom3]);
 }
 nb = afficheRecommandation();
 
 
-//console.log(livres[livresRandom1]);
-//console.log(livres[livresRandom2]);
-//console.log(livres[livresRandom3]);
+
 
  //afficheRecommandation();
  //function afficheLivres(prixMax){
@@ -58,7 +60,6 @@ nb = afficheRecommandation();
            console.log(livre); 
         } 
  }
- 
  
  );
 
