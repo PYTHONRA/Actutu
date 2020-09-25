@@ -5,12 +5,20 @@
 }
 @media screen and (max-width: 1000px){
     .button2 {
-        width: 100%;
+        width: 16%;
+        position: relative;
+        top: 11px;
+        left: 150px;
+        white-space: nowrap;
     }
 }
 @media screen and (max-width: 1000px){
     .button1{
-        width: 100%;
+        width: 16%;
+        position: relative;
+        top: 11px;
+        left:150px;
+        white-space: nowrap;
         
     }
 }
@@ -43,6 +51,7 @@
     .shadowbox1 {
         width: 100%;
         padding: 20px;
+        right: 25px;
     }
 }
 @media screen and (max-width: 1200px){
@@ -70,6 +79,8 @@
     .shadowbox2{
         margin: 10px;
         white-space: nowrap;
+        padding: 0;
+        right: 300px;
     }
     #Ressources{
         white-space: nowrap;
