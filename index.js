@@ -1,29 +1,29 @@
-livres = [
-    livre1 = {
+ let livres = [
+   {
         titre:"L'Énigme de la chambre 622",
         auteur:"Joel Dicker",
         prix:"16,93€",
         résumé:"Une nuit de décembre, un meurtre a lieu au Palace de Verbier, dans les Alpes suisses. L’enquête de police n’aboutira jamais. Des années plus tard, au début de l’été 2018, lorsqu’un écrivain se rend dans ce même hôtel pour y passer des vacances, il est loin d’imaginer qu’il va se retrouver plongé dans cette affaire.",
         image:"Lénigme-de-la-chambre-622.jpg"
 
-    }
-    ,livre2 = {
+    },
+    {
         titre:"Le Livre des Baltimore",
         auteur:"Joel Dicker",
         prix:"22€",
         résumé:"Huit ans après le drame, c’est l’histoire de sa famille que Marcus Goldman décide cette fois de raconter, lorsqu’en février 2012, il quitte l’hiver new-yorkais pour la chaleur tropicale de Boca Raton, en Floride, où il vient s’atteler à son prochain roman.",
         image:"Lénigme-de-la-chambre-622.jpg"
 
-    }
-    ,livre3 = {
+    },
+    {
         titre:"Les Derniers jours de nos pères",
         auteur:"Joel Dicker",
         prix:"19€",
         résumé:"Quelques mois plus tard, le jeune Paul-Émile quitte Paris pour Londres dans l’espoir de rejoindre la Résistance. Rapidement recruté par le SOE, il est intégré à un groupe de Français qui deviendront ses compagnons de cœur et d’armes.",
         image:"Lénigme-de-la-chambre-622.jpg"
 
-    }
-    ,livre4 = {
+    },
+    {
         titre:"La Vérité sur l’Affaire Harry Quebert",
         auteur:"Joel Dicker",
         prix:"20€",
@@ -32,6 +32,12 @@ livres = [
 
     }
 ]
-function afficheRecommandations(livres1, livre2, livre3, livre4){
-   
+/*console.log(livres); */
+
+
+function afficheRecommandation(){
+    console.log(livres[0]);
 }
+ afficheRecommandation();
+   
+
