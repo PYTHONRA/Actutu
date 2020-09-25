@@ -52,11 +52,11 @@ nb = afficheRecommandation();
  //function afficheLivres(prixMax){
 
  //}
- var prixMax = 12;
+ const prixMax = 20;
  livres.forEach(function(livre){
-        if (livre.prix <= prixMax);
-        
-        console.log(livre);
+        if (livre.prix <= prixMax){
+           console.log(livre); 
+        } 
  }
  
  
